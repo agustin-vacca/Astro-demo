@@ -1,0 +1,63 @@
+---
+import art1 from "../../public/img/art1.jpg";
+import art2 from "../../public/img/art2.jpg";
+import art3 from "../../public/img/art 3.jpg";
+import art4 from "../../public/img/art 4.jpg";
+---
+
+<div class="mx-12">
+  <h1 class="my-24 text-center text-xl">Latest Art Pieces</h1>
+  <div class="grid grid-cols-1 gap-24 xl:mx-48 xl:grid-cols-2 mb-20">
+    <!-- Image Card Gallery One -->
+    <div class="relative group cursor-pointer">
+      <img
+        class="relative w-full z-10 rounded-lg group-hover:-translate-x-3 transition-all"
+        src={art1.src}
+        alt="painting"
+      />
+      <div
+        class="absolute left-0 top-0 w-full h-full rounded-lg bg-black group-hover:translate-x-4 group-hover:translate-y-4 transition-all"
+      >
+      </div>
+    </div>
+
+    <!-- Image Card Gallery Two -->
+    <div class="relative group cursor-pointer">
+      <img
+        class="relative w-full z-10 rounded-lg group-hover:-translate-x-3 transition-all"
+        src={art2.src}
+        alt="painting"
+      />
+      <div
+        class="absolute left-0 top-0 w-full h-full rounded-lg bg-black group-hover:translate-x-4 group-hover:translate-y-4 transition-all"
+      >
+      </div>
+    </div>
+
+    <!-- Image Card Gallery Three -->
+    <div class="relative group cursor-pointer">
+      <img
+        class="relative w-full z-10 rounded-lg group-hover:-translate-x-3 transition-all"
+        src={art3.src}
+        alt="painting"
+      />
+      <div
+        class="absolute left-0 top-0 w-full h-full rounded-lg bg-black group-hover:translate-x-4 group-hover:translate-y-4 transition-all"
+      >
+      </div>
+    </div>
+
+    <!-- Image Card Gallery Four -->
+    <div class="relative group cursor-pointer">
+      <img
+        class="relative w-full z-10 rounded-lg group-hover:-translate-x-3 transition-all"
+        src={art4.src}
+        alt="painting"
+      />
+      <div
+        class="absolute left-0 top-0 w-full h-full rounded-lg bg-black group-hover:translate-x-4 group-hover:translate-y-4 transition-all"
+      >
+      </div>
+    </div>
+  </div>
+</div>
